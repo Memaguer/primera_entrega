@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar hideBackButton="true">
+    <ion-title>SAC | Inicio de Sesión</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="login">
+  <ion-content padding >
+    <div class="square">
+      <div class="internSquare">
+        <ion-img src="assets/img/alabool-logo.svg"></ion-img>
+        <ion-list>
+          <ion-item>
+            <ion-label stacked>Nombre de Usuario</ion-label>
+            <ion-input type=" "></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label stacked>Contraseña</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+        </ion-list>
+
+        <button ion-button [navPush]="tabsPage">Iniciar Sesión</button>
+        <p>¿Olvidaste tu contraseña?</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-content>

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <ion-title>
+    SAC | ALABÓOL
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-img src="assets/img/pc.jpg"></ion-img>
+  <button ion-button block (click)="doPrompt()" class="create">Crear Ticket</button>
+  <ion-list>
+    <ion-item *ngFor="let ticket of tickets">
+    <h2><b>#{{ ticket.id }}</b></h2>
+      <p>{{ ticket.descripcion }}</p>
+      <p>{{ ticket.fechaAper }}</p>
+    </ion-item>
+  </ion-list>
+  <button ion-button [navPush]="loginPage" color="danger" class="logout">Cerrar Sesión</button>
+</ion-content>
