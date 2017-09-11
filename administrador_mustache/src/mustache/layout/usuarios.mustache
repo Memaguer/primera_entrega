@@ -1,0 +1,19 @@
+
+	<h3>{{ idCliente }}</h3>
+	<h3>{{ cliente }}</h3>
+	<table id="{{ idCliente }}" class="table table-striped table-hover table-sm">
+		<thead class="thead-inverse">
+			<th>Id del Cliente</th>
+			<th>Nombre del Clietne</th>
+			<th>Empresa para la que trabaja</th>
+			<th>Correo del Cliente</th>
+		</thead>
+        {{#usuarios}}
+		<tr>
+			<th class="idCliente">{{id}}</th>
+			<th class="nomCliente">{{ nombre }} {{ apellido }}</th>
+			<th class="empresa">{{ empresa }}</th>
+			<th class="email">{{ email }}</th>
+		</tr>
+        {{/usuarios}}
+	</table>

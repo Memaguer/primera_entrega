@@ -1,0 +1,23 @@
+
+	<h3>{{ idTicket }}</h3>
+	<h3>{{ cliente }}</h3>
+	<table id="{{ idTicket }}" class="table table-striped table-hover table-sm">
+		<thead class="thead-inverse">
+            <th>Cliente</th>
+			<th>Fecha de apertura</th>
+			<th>Fecha de cierre</th>
+			<th>Novedades</th>
+			<th>Estado</th>
+			<th>Descripción</th>
+		</thead>
+        {{#tickets}}
+		<tr>
+            <th class="fechaAp">{{ cliente }}</th>
+			<th class="fechaAp">{{ fechaAper }}</th>
+			<th class="fechaCi">{{ fechaCierre }}</th>
+			<th class="novedad">{{ numNovedades }}</th>
+			<th class="edo">{{ estado }}</th>
+			<th class="desc">{{ descripcion }}</th>
+		</tr>
+        {{/tickets}}
+	</table>

@@ -1,0 +1,16 @@
+{{#chats}}
+	<h3>{{ idChat }}</h3>
+	<h3>{{ cliente }}</h3>
+	<table id={{ idChat }}>
+		<tr>
+			<th>ID Cliente</th>
+			<th>Nombre del Cliente</th>
+			<th>Todos los mensajes</th>
+		</tr>
+		<tr>
+			<th class="idCliente"> {{ id }}</th>
+			<th class="nomCliente"> {{ client_name }}</th>
+			<th class="todosMensajes">{{Messages}}</th>
+		</tr>
+	</table>
+{{/chats}}

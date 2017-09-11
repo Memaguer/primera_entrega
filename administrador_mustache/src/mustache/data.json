@@ -1,0 +1,724 @@
+{
+	"title" : "SAC",
+	"title2" : "Mensajes del chat",
+	"usuarios": [
+		{
+			"id": "7476841",
+			"nombre": "Gerardo",
+			"apellido": "Aguirre",
+			"empresa": "Amazon",
+			"email":"aguirre@amazon.com"
+		},
+		{
+			"id": "7510605",
+			"nombre": "Edgar",
+			"apellido": "Toledo",
+			"empresa": "Bluehost",
+			"email":"ed@bluehost.com"
+		},
+		{
+			"id": "7511106",
+			"nombre": "Fernando",
+			"apellido": "Ruiz",
+			"empresa": "ITESM",
+			"email":"fernando.ruiz@itesm.mx"
+		},
+		{
+			"id": "7511361",
+			"nombre": "Alfredo",
+			"apellido": "Puente",
+			"empresa": "Starbucks",
+			"email":"alfredopv@gmail.com"
+		}
+	],
+	"tickets": [
+		{
+		  	"id": "46263",
+		  	"cliente": "Gerardo Aguirre",
+			"fechaAper": "2017-09-01",
+			"fechaCierre": "03-09-05",
+			"numNovedades": "3",
+			"estado": "cerrado",
+			"descripcion": "Falla carga de portal",
+			"comentarios": [
+				{
+					"comentario1": "Boorar las cookies.",
+					"comentario2": "Reiniciar navegador",
+					"comentario3": "Revisar el usuario y la contraseña"
+				}
+			],
+			"Encargado": [
+			  	{
+					"nombreEncar": "Guillermo",
+					"apellidoEncar": "Barrientos"
+				}
+			]
+		},
+		{
+		  	"id": "46264",
+		  	"cliente": "Edgar Toledo",
+			"fechaAper": "2017-09-02",
+			"fechaCierre": "2017-09-02",
+			"numNovedades": "1",
+			"estado": "cerrado",
+			"descripcion": "Instalar la nueva version",
+			"comentarios": [
+				{
+					"comentario1": "Proporcionar un nuevo email."
+				}
+			],
+			"Encargado": [
+			  	{
+					"nombreEncar": "Ricardo",
+					"apellidoEncar": "Gomez"
+				}
+			]
+		},
+		{
+		  	"id": "46265",
+		  	"cliente": "Fernando Ruiz",
+			"fechaAper": "2017-09-03",
+			"fechaCierre": "2017-09-04",
+			"numNovedades": "4",
+			"estado": "cerrado",
+			"descripcion": "Activar nueva cuenta",
+			"comentarios": [
+				{
+					"comentario1": "Se necesita el nombre completo de la empresa.",
+					"comentario2": "Verificar nombre de la empresa, proveer el nombre registrado de la empresa.",
+					"comentario3": "Falta confirmacion del email.",
+					"comentario4": "Reenvío de la confirmacion al mail."
+				}
+			],
+			"Encargado": [
+			  	{
+					"nombreEncar": "Lizeth",
+					"apellidoEncar": "Escuadra"
+				}
+			]
+		},
+		{
+		  	"id": "46266",
+		  	"cliente": "Alfredo Puente",
+			"fechaAper": "2017-09-08",
+			"fechaCierre": "",
+			"numNovedades": "2",
+			"estado": "pendiente",
+			"descripcion": "No carga el portal.",
+			"comentarios": [
+				{
+					"comentario1": "Verifique su email y su contraseña.",
+					"comentario2": "Enviamos un correo de verificacion, de click en el enlace."
+				}
+			],
+			"Encargado": [
+			  	{
+					"nombreEncar": "Irvin",
+					"apellidoEncar": "Mundo"
+				}
+			]
+		}
+	],
+	"chats": [
+		{
+			"was_proactive": false,
+			"loc_city": "Mexico",
+			"loc_country": "Mexico",
+			"operator_created_id": 46263,
+			"data_privacy": false,
+			"feedback_message": "",
+			"client_additional02_name": "Empresa",
+			"chat_widget": {
+				"name": "Website",
+				"id": 42077
+			},
+			"custom": null,
+			"rate_1_star": false,
+			"operator_current_id": 46263,
+			"client_additional02_value": "Rolcar",
+			"rate_5_star": false,
+			"client_additional01_value": "3242354242",
+			"rate_2_star": false,
+			"marked_read": true,
+			"rate_4_star": false,
+			"referrer": null,
+			"notes": [],
+			"browser_version": "55",
+			"browser_name": "Firefox",
+			"loc_lat": 19.4342,
+			"client_email": "aguirre@email.com",
+			"client_uuid": "Zjc2ZTYwZDEtZTM0NS0xZDE3LWUxZWUtYzljYWY4NGYzYTIw",
+			"page_impressions": 2,
+			"topic": "PINTUCITY",
+			"rate": null,
+			"duration": "00:02:11",
+			"id": 7476841,
+			"operator_created": {
+				"first_name": "soporte",
+				"last_name": "gbg",
+				"display_name": "soporte gbg",
+				"name": "soporte gbg",
+				"operator_group": {
+					"id": 96883,
+					"name": "Default"
+				},
+				"email": "soporte.gbg@gmail.com",
+				"id": 46263
+			},
+			"client_name": "Gerardo Aguirre",
+			"client_additional03_value": "Probar que funcione correctamente la conexi\u00f3n de chat y ticket",
+			"status": "pending",
+			"rate_3_star": false,
+			"loc_lon": -99.1386,
+			"chat_widget_goal": {
+				"name": null,
+				"id": null
+			},
+			"visits": 15,
+			"post_survey_option": null,
+			"ended_at": "2017-08-29 11:06:16",
+			"browser_os": "Ubuntu",
+			"url": "http://192.175.110.166:8490/userlike/",
+			"created_at": "2017-08-29 11:04:05",
+			"messages": [{
+				"body": "hola",
+				"operator_id": 46263,
+				"display_name": "Gerardo Aguirre",
+				"sent_at": "2017-08-29T15:04:00+00:00",
+				"sent_at_time": "15:04:00",
+				"type": "co",
+				"name": "Gerardo Aguirre"
+			}, {
+				"body": "hola",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-08-29T15:04:13+00:00",
+				"sent_at_time": "15:04:13",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "Esta es una prueba de tickets",
+				"operator_id": 46263,
+				"display_name": "Gerardo Aguirre",
+				"sent_at": "2017-08-29T15:04:29+00:00",
+				"sent_at_time": "15:04:29",
+				"type": "co",
+				"name": "Gerardo Aguirre"
+			}, {
+				"body": "s\u00ed esta es una prueba de tickets",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-08-29T15:04:48+00:00",
+				"sent_at_time": "15:04:48",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "Prueba 1",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-08-29T15:06:03+00:00",
+				"sent_at_time": "15:06:03",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "Prueba dos",
+				"operator_id": 46263,
+				"display_name": "Gerardo Aguirre",
+				"sent_at": "2017-08-29T15:06:12+00:00",
+				"sent_at_time": "15:06:12",
+				"type": "co",
+				"name": "Gerardo Aguirre"
+			}, {
+				"body": "Prueba 3",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-08-29T15:06:16+00:00",
+				"sent_at_time": "15:06:16",
+				"type": "ct",
+				"name": "soporte gbg"
+			}],
+			"inital_url": "http://192.175.110.166:8490/userlike/",
+			"client_additional01_name": "N\u00famero de tel\u00e9fono",
+			"client_additional03_name": "T\u00edtulo",
+			"operator_current": {
+				"first_name": "soporte",
+				"last_name": "gbg",
+				"display_name": "soporte gbg",
+				"name": "soporte gbg",
+				"operator_group": {
+					"id": 96883,
+					"name": "Default"
+				},
+				"email": "soporte.gbg@gmail.com",
+				"id": 46263
+			}
+		},
+		{
+			"was_proactive": false,
+			"loc_city": "Mexico",
+			"loc_country": "Mexico",
+			"operator_created_id": 46739,
+			"data_privacy": false,
+			"feedback_message": "",
+			"client_additional02_name": null,
+			"chat_widget": {
+				"name": "Rolcar",
+				"id": 42437
+			},
+			"custom": null,
+			"rate_1_star": false,
+			"operator_current_id": 46739,
+			"client_additional02_value": null,
+			"rate_5_star": false,
+			"client_additional01_value": "34234234234",
+			"rate_2_star": false,
+			"marked_read": true,
+			"rate_4_star": false,
+			"referrer": "http://192.175.110.166:8490/userlike/psicofarma.jsp",
+			"notes": [{
+				"body": "Se arreglo cargando el portal",
+				"operator_id": 46739,
+				"name": "Fernando Ruiz",
+				"sent_at": "2017-09-01T14:54:59+00:00"
+			}],
+			"browser_version": "55",
+			"browser_name": "Firefox",
+			"loc_lat": 19.4342,
+			"client_email": "ed@email.com",
+			"client_uuid": "NWQ2MTgxYjctMzNlZC0wYjIwLWIxYzktZmZlMzY4MjRkMjJj",
+			"page_impressions": 2,
+			"topic": null,
+			"rate": null,
+			"duration": "00:04:31",
+			"id": 7510605,
+			"operator_created": {
+				"first_name": "Fernando",
+				"last_name": "Ruiz",
+				"display_name": "Fernando Ruiz",
+				"name": "Fernando Ruiz",
+				"operator_group": {
+					"id": 96885,
+					"name": "Support"
+				},
+				"email": "fernando.ruiz.gbg@gmail.com",
+				"id": 46739
+			},
+			"client_name": "Edgar Toledo",
+			"client_additional03_value": "Problema al cargar el portal",
+			"status": "new",
+			"rate_3_star": false,
+			"loc_lon": -99.1386,
+			"chat_widget_goal": {
+				"name": null,
+				"id": null
+			},
+			"visits": 1,
+			"post_survey_option": null,
+			"ended_at": null,
+			"browser_os": "Ubuntu",
+			"url": "http://192.175.110.166:8490/userlike/rolcar.jsp",
+			"created_at": "2017-09-01 10:52:08",
+			"messages": [{
+				"body": "Hola",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:52:13+00:00",
+				"sent_at_time": "14:52:13",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "Hola",
+				"operator_id": 46739,
+				"display_name": "Fernando Ruiz",
+				"sent_at": "2017-09-01T14:52:27+00:00",
+				"sent_at_time": "14:52:27",
+				"type": "ct",
+				"name": "Fernando Ruiz"
+			}, {
+				"body": "Necestio ayuda",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:52:36+00:00",
+				"sent_at_time": "14:52:36",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "Cu\u00e1l es el problema?",
+				"operator_id": 46739,
+				"display_name": "Fernando Ruiz",
+				"sent_at": "2017-09-01T14:52:46+00:00",
+				"sent_at_time": "14:52:46",
+				"type": "ct",
+				"name": "Fernando Ruiz"
+			}, {
+				"body": "No puedo entrar al portal",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:52:58+00:00",
+				"sent_at_time": "14:52:58",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "borra el cache de tu navegador",
+				"operator_id": 46739,
+				"display_name": "Fernando Ruiz",
+				"sent_at": "2017-09-01T14:53:15+00:00",
+				"sent_at_time": "14:53:15",
+				"type": "ct",
+				"name": "Fernando Ruiz"
+			}, {
+				"body": "okay",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:53:19+00:00",
+				"sent_at_time": "14:53:19",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "gracias",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:53:24+00:00",
+				"sent_at_time": "14:53:24",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "S\u00ed se pudo solucionar",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:53:36+00:00",
+				"sent_at_time": "14:53:36",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "gracias",
+				"operator_id": 46739,
+				"display_name": "Edgar Toledo",
+				"sent_at": "2017-09-01T14:53:38+00:00",
+				"sent_at_time": "14:53:38",
+				"type": "co",
+				"name": "Edgar Toledo"
+			}, {
+				"body": "hasta pronto",
+				"operator_id": 46739,
+				"display_name": "Fernando Ruiz",
+				"sent_at": "2017-09-01T14:53:45+00:00",
+				"sent_at_time": "14:53:45",
+				"type": "ct",
+				"name": "Fernando Ruiz"
+			}],
+			"inital_url": "http://192.175.110.166:8490/userlike/rolcar.jsp",
+			"client_additional01_name": "N\u00famero de tel\u00e9fono",
+			"client_additional03_name": "T\u00edtulo",
+			"operator_current": {
+				"first_name": "Fernando",
+				"last_name": "Ruiz",
+				"display_name": "Fernando Ruiz",
+				"name": "Fernando Ruiz",
+				"operator_group": {
+					"id": 96885,
+					"name": "Support"
+				},
+				"email": "fernando.ruiz.gbg@gmail.com",
+				"id": 46739
+			}
+		},
+		{
+			"was_proactive": false,
+			"loc_city": "",
+			"loc_country": "Mexico",
+			"operator_created_id": 46263,
+			"data_privacy": false,
+			"feedback_message": "",
+			"client_additional02_name": "Empresa",
+			"chat_widget": {
+				"name": "Alabool General",
+				"id": 42077
+			},
+			"custom": null,
+			"rate_1_star": false,
+			"operator_current_id": 46263,
+			"client_additional02_value": null,
+			"rate_5_star": false,
+			"client_additional01_value": "4534543543",
+			"rate_2_star": false,
+			"marked_read": false,
+			"rate_4_star": false,
+			"referrer": null,
+			"notes": [{
+				"body": "Se requiere cambiar a la nueva versi\u00f3n",
+				"operator_id": 46263,
+				"name": "soporte gbg",
+				"sent_at": "2017-09-01T15:41:49+00:00"
+			}, {
+				"body": "Me proporcion\u00f3 un nuevo correo electr\u00f3nico",
+				"operator_id": 46263,
+				"name": "soporte gbg",
+				"sent_at": "2017-09-01T15:42:03+00:00"
+			}],
+			"browser_version": "55",
+			"browser_name": "Chrome",
+			"loc_lat": 19.43,
+			"client_email": "ricardo@email.com",
+			"client_uuid": "NDU2NjJlYzctN2NhNy0xNzFiLWIxODItYzA5NjZhZjU4MGFj",
+			"page_impressions": 1,
+			"topic": null,
+			"rate": null,
+			"duration": "00:06:30",
+			"id": 7511106,
+			"operator_created": {
+				"first_name": "soporte",
+				"last_name": "gbg",
+				"display_name": "soporte gbg",
+				"name": "soporte gbg",
+				"operator_group": {
+					"id": 96883,
+					"name": "Default"
+				},
+				"email": "soporte.gbg@gmail.com",
+				"id": 46263
+			},
+			"client_name": "Ricardo G\u00f3mez",
+			"client_additional03_value": "Cambio de portal a la nueva versi\u00f3n",
+			"status": "new",
+			"rate_3_star": false,
+			"loc_lon": -99.13,
+			"chat_widget_goal": {
+				"name": null,
+				"id": null
+			},
+			"visits": 1,
+			"post_survey_option": null,
+			"ended_at": null,
+			"browser_os": "Linux",
+			"url": "http://192.175.110.166:8490/userlike/index.jsp",
+			"created_at": "2017-09-01 11:39:23",
+			"messages": [{
+				"body": "hola",
+				"operator_id": 46263,
+				"display_name": "Ricardo G\u00f3mez",
+				"sent_at": "2017-09-01T15:39:25+00:00",
+				"sent_at_time": "15:39:25",
+				"type": "co",
+				"name": "Ricardo G\u00f3mez"
+			}, {
+				"body": "hola",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T15:39:33+00:00",
+				"sent_at_time": "15:39:33",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "Pueden cambiar mi portal a la nueva versi\u00f3n",
+				"operator_id": 46263,
+				"display_name": "Ricardo G\u00f3mez",
+				"sent_at": "2017-09-01T15:39:56+00:00",
+				"sent_at_time": "15:39:56",
+				"type": "co",
+				"name": "Ricardo G\u00f3mez"
+			}, {
+				"body": "\u00bf?",
+				"operator_id": 46263,
+				"display_name": "Ricardo G\u00f3mez",
+				"sent_at": "2017-09-01T15:39:58+00:00",
+				"sent_at_time": "15:39:58",
+				"type": "co",
+				"name": "Ricardo G\u00f3mez"
+			}, {
+				"body": "s\u00ed, en unos minutos quedar\u00e1",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T15:40:06+00:00",
+				"sent_at_time": "15:40:06",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "gracias",
+				"operator_id": 46263,
+				"display_name": "Ricardo G\u00f3mez",
+				"sent_at": "2017-09-01T15:40:10+00:00",
+				"sent_at_time": "15:40:10",
+				"type": "co",
+				"name": "Ricardo G\u00f3mez"
+			}, {
+				"body": "\u00bfcu\u00e1l es su correo?",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T15:40:21+00:00",
+				"sent_at_time": "15:40:21",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "ricardo@email.com",
+				"operator_id": 46263,
+				"display_name": "Ricardo G\u00f3mez",
+				"sent_at": "2017-09-01T15:40:39+00:00",
+				"sent_at_time": "15:40:39",
+				"type": "co",
+				"name": "Ricardo G\u00f3mez"
+			}],
+			"inital_url": "http://192.175.110.166:8490/userlike/index.jsp",
+			"client_additional01_name": "N\u00famero de tel\u00e9fono",
+			"client_additional03_name": "T\u00edtulo",
+			"operator_current": {
+				"first_name": "soporte",
+				"last_name": "gbg",
+				"display_name": "soporte gbg",
+				"name": "soporte gbg",
+				"operator_group": {
+					"id": 96883,
+					"name": "Default"
+				},
+				"email": "soporte.gbg@gmail.com",
+				"id": 46263
+			}
+		},
+		{
+			"was_proactive": false,
+			"loc_city": "",
+			"loc_country": "Mexico",
+			"operator_created_id": 46263,
+			"data_privacy": false,
+			"feedback_message": "",
+			"client_additional02_name": null,
+			"chat_widget": {
+				"name": "Rolcar",
+				"id": 42494
+			},
+			"custom": null,
+			"rate_1_star": false,
+			"operator_current_id": 46263,
+			"client_additional02_value": null,
+			"rate_5_star": false,
+			"client_additional01_value": "4324324",
+			"rate_2_star": false,
+			"marked_read": false,
+			"rate_4_star": false,
+			"referrer": "http://192.175.110.166:8490/userlike/rolcar.jsp",
+			"notes": [{
+				"body": "activar cuenta nueva",
+				"operator_id": 46263,
+				"name": "soporte gbg",
+				"sent_at": "2017-09-01T16:19:38+00:00"
+			}],
+			"browser_version": "55",
+			"browser_name": "Firefox",
+			"loc_lat": 19.43,
+			"client_email": "liz@email.com",
+			"client_uuid": "YjA4ZWI0NmUtODhhMy01NDMyLWFlZjAtNmI0ZWMzYjQ3M2Ix",
+			"page_impressions": 12,
+			"topic": null,
+			"rate": null,
+			"duration": "00:03:02",
+			"id": 7511361,
+			"operator_created": {
+				"first_name": "soporte",
+				"last_name": "gbg",
+				"display_name": "soporte gbg",
+				"name": "soporte gbg",
+				"operator_group": {
+					"id": 96883,
+					"name": "Default"
+				},
+				"email": "soporte.gbg@gmail.com",
+				"id": 46263
+			},
+			"client_name": "Lizeth Escuadra",
+			"client_additional03_value": "Activaci\u00f3n de cuenta",
+			"status": "new",
+			"rate_3_star": false,
+			"loc_lon": -99.13,
+			"chat_widget_goal": {
+				"name": null,
+				"id": null
+			},
+			"visits": null,
+			"post_survey_option": null,
+			"ended_at": null,
+			"browser_os": "Ubuntu",
+			"url": "http://192.175.110.166:8490/userlike/rolcar.jsp",
+			"created_at": "2017-09-01 12:17:42",
+			"messages": [{
+				"body": "Hola",
+				"operator_id": 46263,
+				"display_name": "Lizeth Escuadra",
+				"sent_at": "2017-09-01T16:17:45+00:00",
+				"sent_at_time": "16:17:45",
+				"type": "co",
+				"name": "Lizeth Escuadra"
+			}, {
+				"body": "Hola",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T16:18:08+00:00",
+				"sent_at_time": "16:18:08",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "Soy nueva en la empresa necesito que me proporcionen una cuenta y un password para poder acceder al portal",
+				"operator_id": 46263,
+				"display_name": "Lizeth Escuadra",
+				"sent_at": "2017-09-01T16:18:34+00:00",
+				"sent_at_time": "16:18:34",
+				"type": "co",
+				"name": "Lizeth Escuadra"
+			}, {
+				"body": "Claro en un minutos te llegaraa tu correo personal la activiaci\u00f3n de tu nueva cuenta",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T16:19:02+00:00",
+				"sent_at_time": "16:19:02",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "\u00bfDe qu\u00e9 refaccionara eres?",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T16:19:09+00:00",
+				"sent_at_time": "16:19:09",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "Dela de Quer\u00e9taro",
+				"operator_id": 46263,
+				"display_name": "Lizeth Escuadra",
+				"sent_at": "2017-09-01T16:19:17+00:00",
+				"sent_at_time": "16:19:17",
+				"type": "co",
+				"name": "Lizeth Escuadra"
+			}, {
+				"body": "okay",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T16:19:20+00:00",
+				"sent_at_time": "16:19:20",
+				"type": "ct",
+				"name": "soporte gbg"
+			}, {
+				"body": "en unos minutos llagara dicha activaci\u00f3n",
+				"operator_id": 46263,
+				"display_name": "soporte gbg",
+				"sent_at": "2017-09-01T16:19:29+00:00",
+				"sent_at_time": "16:19:29",
+				"type": "ct",
+				"name": "soporte gbg"
+			}],
+			"inital_url": "http://192.175.110.166:8490/userlike/index.jsp",
+			"client_additional01_name": "N\u00famero de tel\u00e9fono",
+			"client_additional03_name": "T\u00edtulo",
+			"operator_current": {
+				"first_name": "soporte",
+				"last_name": "gbg",
+				"display_name": "soporte gbg",
+				"name": "soporte gbg",
+				"operator_group": {
+					"id": 96883,
+					"name": "Default"
+				},
+				"email": "soporte.gbg@gmail.com",
+				"id": 46263
+			}
+		}
+	]
+}

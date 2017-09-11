@@ -1,0 +1,29 @@
+
+	<h3>{{ idChat }}</h3>
+	<h3>{{ cliente }}</h3>
+	<table id="{{ idChat }}" class="table table-striped table-hover table-sm">
+		<thead class="thead-inverse">
+			<th>ID Cliente</th>
+			<th>Nombre del Cliente</th>
+			<th>Correo del Cliente</th>
+			<th>Creado el</th>
+			<th>Duración de la conversación</th>
+			<th>Finalizó el</th>
+			<th>Estado</th>
+			<th>ID del Operador</th>
+			<th>Nombre del Operador</th>
+		</thead>
+        {{#chats}}
+		<tr>
+			<th class="idCliente"> {{ id }}</th>
+			<th class="nomCliente"> {{ client_name }}</th>
+			<th class="emailCliente"> {{ client_email }}</th>
+			<th class="inicioChat"> {{ created_at }}</th>
+			<th class="dura"> {{ duration }}</th>
+			<th class="finChat"> {{ ended_at }}</th>
+			<th class="edo"> {{ status }}</th>
+			<th class="idOperador"> {{ operator_created_id }}</th>
+			<th class="nomOperador"> {{ operator_created_id }}</th>
+		</tr>
+        {{/chats}}
+	</table>
